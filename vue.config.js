@@ -3,6 +3,10 @@ module.exports = {
     electronBuilder: {
       builderOptions: {
         publish: ['github'],
+        'snap.publish': {
+          provider: 'generic',
+          url: 'https://anydummyurl.com',
+        },
       },
     },
   },
